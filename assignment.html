@@ -26,24 +26,106 @@
           </div>
       </div>
       </div>
-      <form>
-        <td><label class="headings">First Name</label><input type="text" class="border-black" placeholder="FirstName"><br>
-        <label>Last Name</label><input type="text" placeholder="LastName"><br>
-        <label>Mail Address1</label><input type="text"><br>
-        <label>Mail Address2</label><input type="text"><br>
-        <label>City</label><input type="text"><br>
-        <label>Zip</label><input type="text"><br>
-        <label>Upload Photo</label><button>Browse</button><label>No file selected</label><br>
-        <label>E-Mail</label><input type="text"><br>
-        <label>Mobile</label><input type="text"><br>
-        <input type="checkbox"><label>Gujarati</label><br>
-        <input type="checkbox"><label>Hindi</label><br>
-        <input type="checkbox"><label>English</label><br>
-        <input type="checkbox"><label>Marathi</label><br>
-        <label>Additional Information</label><textarea>Optional</textarea><br>
-        <input type="submit">
-        <input type="button" value="Reset">
-    </form>
+      <form style="background-color:lightcyan;width:40%;">  
+        <h1 style="color: red;">Employee Registration Form</h1>  
+        <table>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="male"/ checked> Mr.      
+                    <input type="radio" id="gender" name="gender" value="female"/> Mrs. 
+                    <input type="radio" id="gender" name="gender" value="female"/> Ms. 
+                </td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="fname" name="fname" placeholder="first name"></td>
+            </tr>
+            <tr>
+                <td> <label for="lname">Last Name:</label></td>
+                <td> <input type="text" id="lname" name="lname" placeholder="last name"></td>
+            </tr>
+            <tr>
+                <td> <label for="mailA1">Mail Address 1:</label></td>
+                <td> <input type="text" id="mailA1" name="mailA1"></td>
+            </tr>
+            <tr>
+                <td> <label for="mailA2">Mail Address 2:</label></td>
+                <td> <input type="text" id="mailA2" name="mailA2"></td>
+            </tr>
+            <tr>
+                <td> <label for="city">City:</label></td>
+                <td> <input type="text" id="city" name="city"></td>
+            </tr>
+            <tr>
+                <td>
+                  
+                        <label for="state">State:</label>
+                        
+                </td>
+                <td>
+                    <select name="state" id="state">
+                        <option value="Gujrat" selected>Gujrat</option>
+                        <option value="saab">Maharashtra</option>
+                        <option value="opel">Kerala</option>
+                        <option value="audi">Karnataka</option>
+                      </select>
+                     
+                </td>
+            </tr>
+            <tr>
+               
+                    <td> <label for="zip">Zip:</label></td>
+                    <td> <input type="text" id="zip" name="zip"></td>
+               
+            </tr>
+            <tr>
+               
+                <td> <label for="im">Upload Photo:</label></td>
+                <td> <input type="file" id="im" name="zip"></td>
+           
+        </tr>
+            <tr>
+               
+                <td> <label for="email">Email:</label></td>
+                <td> <input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+               
+            <td> <label for="mb">Mobile:</label></td>
+            <td> <input type="text" id="mb" name="mb" placeholder="+91"></td>
+    </tr>
+    <tr>
+               
+        <td> <label for="ln">Laguages Known:</label></td>
+        <td><input type="checkbox" id="ln" name="ln" value="Lang" checked>Gujarati</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" id="ln" name="ln" value="Lang" checked>Hindi</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" id="ln" name="ln" value="Lang" checked>English</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" id="ln" name="ln" value="Lang">Marathi</td>
+    </tr>
+    <tr>
+        <td>Additional information</td>
+        <td><textarea placeholder="optional"></textarea></td>
+    </tr>
+        </table>
+       <tr>
+        <td></td>
+        <td><button type="submit" form="nameform" value="Submit">Submit</button> &nbsp;<button type="reset" form="nameform" value="reset">Reset</button></td>
+       </tr>
+  
+        </form>    
+   
+
+</body>
 </div>
 </div>
 
