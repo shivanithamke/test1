@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table class="table-auto text-center border-spacing-x-0.5 table-center mt-7 font-semibold border-seprate border border-slate-400">
+      <tr>
+        <thead><th class="text-center text-2xl font-bold inline-block">
+                  Registration Form
+                  </th>
+       </thead>
+      </tr>
+        <tbody>
+            <tr>
+                
+               <td>
+               <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                      First name
+                    </span>
+                    </td>
+             <td>
+                <input type="first name" name="first name" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="First name" />
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                     Last Name
+                    </span>
+                </td>
+             <td>
+                <input type="last name" name="last name" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="last name" />
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                     Mail Address1
+                    </span>
+                </td>
+             <td>
+                <input type="Mail" name="Mail" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Mail Address1" />
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                     Mail Address2
+                    </span>
+                </td>
+             <td>
+                <input type="Mail" name="Mail" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Mail Address2" />
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                     City
+                    </span>
+                </td>
+             <td>
+                <input type="City" name="City" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="City" />
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                    State
+                    </span>
+                </td>
+             <td>
+                 <select name="State" id="State" class="border shadow-xm border-slate-300 w-72">
+                    <option value="volvo">Gujrat</option>
+                    <option value="saab">kerla</option>
+                    <option value="mercedes">panjab</option>
+                    <option value="audi">uttarpradesh</option>
+                  </select>
+
+            </label>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label class="block">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                     Zip
+                    </span>
+                </td>
+             <td>
+                <input type="Zip" name="Zip" class="mt-1 px-3 py-2 bg-white border shadow-xm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Zip" />
+            </label>
+            </td>
+            <tr>
+                <td>
+                    <label class="block">
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                         Upload photo
+                        </span>
+                </td>
+                <td>
+                    <form class="flex items-center space-x-6">
+                        
+                        <label class="block">
+                          <span class="sr-only">Browser</span>
+                          <input type="file" class="block w-full text-sm text-slate-500
+                            file:mr-4 file:py-2 file:px-4
+                             file:border-0
+                            file:text-sm file:font-semibold
+                            file:bg-violet-50 file:bg-slate-300
+                            hover:file:bg-violet-100
+                          "/>
+                        </label>
+                      </form>
+                </td>
+            </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">
+                            Submit
+                          </button>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Reset
+                      </button>
+                </td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
