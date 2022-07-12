@@ -6,7 +6,7 @@ let index=4;
 console.log(`${string1.charAt(index)}`)
 console.log(`${string1.at(index)}`)
 console.log(`${string1.charCodeAt(index)}`)
-// concat
+//concat
 let string2="dsv"
 console.log(string1.concat('', string2))
 // endsWith
